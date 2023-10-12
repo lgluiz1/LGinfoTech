@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    width: 100%;
+    height: 100%;
+    
+
+    background: linear-gradient(3deg, #1b3449, #1ec1df, #12525b);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+.principal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.logo{
+    width: 80%;
+}
+.conteudo{
+    text-align: center;
+}
+.conteudo h1{
+    color: aliceblue;
+    font-size: 3rem;
+}
+.conteudo p{
+    color: azure;
+    font-size: 1.5rem;
+}
+.localizacao{
+    padding-top: 5%;  
+}
+.localizacao a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 3rem;
+    color: aliceblue;    
+    transition: 1s all;
+}
+.localizacao a:hover{
+    color: black;
+}
+.sociais{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sociais ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+.sociais ul a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-size: 1.5rem;
+    transition: 1s all;
+}
+.sociais ul a:hover{
+    color: black    ;
+}
+footer{
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+footer a{
+    color: aliceblue;
+    transition: 1s all;
+}
+footer a:hover{
+    color: black;
+}
